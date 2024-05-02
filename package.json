@@ -1,0 +1,20 @@
+{
+  "name": "eywa_rpm_bojan_brkic",
+  "version": "1.0.0",
+  "description": "EYWA RPM test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "devStart": "nodemon index.js"
+  },
+  "author": "Bojan Brkic",
+  "license": "ISC",
+  "dependencies": {
+    "chrome-remote-interface": "^0.33.0",
+    "selenium-webdriver": "^4.20.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  },
+  "keywords": []
+}
